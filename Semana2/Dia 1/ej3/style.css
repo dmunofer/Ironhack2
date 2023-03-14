@@ -1,33 +1,33 @@
-* {
-    box-sizing: border-box;
-}
 
 .column{
     background:yellow;
 }
 .relative {
     position: relative;
-    width: 180px;
-    height: 210px;
+    width: 450px;
+    height: 310px;
     background: red;
     color: white;
     top:70px;
     left:0px;
 }
 
-.outer {
+.box {
     position: relative;
-    top: 55px;
-    width: 1280px;
-    height: 300px;
-    background: green
+    left:0px;
+    top: 54px;
+    width:1060px;
+    height:500px;
+    background: green;
+    text-transform: uppercase;
 }
 
 footer{
     position:relative;
-    top:30px;
-    height:100px;
-    width:1280px;
+    left:455px;
+    top:600px;
+    height:108px;
+    width:1060px;
     background: blue;
 
 }
@@ -38,12 +38,12 @@ footer{
 }
 .column-1{
 
-    width: 15%;
+    width: 100px;
     height: 80px;
 
 }
 .column-2{
-    width: 85%;
+    width: 1000px;
     height: 80px;
 }
 
@@ -62,4 +62,8 @@ footer{
 }
 .column-2{
     width:70%
+}
+
+p {
+    color: rgb(250, 2, 250);
 }
