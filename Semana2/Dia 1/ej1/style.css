@@ -1,0 +1,55 @@
+
+.div-1{
+    border: 4px solid hsl(214, 95%, 49%);
+    height: 90px;
+}
+
+.div-2 {
+    border: 4px solid rgb(231, 15, 15);
+    height: 170px;
+}
+
+.div-3 {
+
+    border: 3px solid hsl(63, 90%, 48%);
+    height: 80px;
+}
+.div-4 {
+    border: 3px solid #828383;
+    height: 70px;
+}
+
+.div-5 {
+
+    border: 3px solid #a610d8;
+    height: 280px;
+}
+
+.div-6 {
+    border: 3px solid #e48c09;
+    height: 100px;
+}
+
+.div-7 {
+    border: 3px solid #ff52c8;
+    height: 70px;
+}
+
+.div-8 {
+    border: 3px solid #00f6f6;
+    height: 50px;
+
+}
+
+.div-9 {
+    border: 3px solid #000000;
+    height: 115px;
+
+}
+
+.column{
+    float:left;
+    width: 25%;
+    padding: 5px;
+}
+
