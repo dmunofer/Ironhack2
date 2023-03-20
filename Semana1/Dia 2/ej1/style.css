@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(185, 9, 197);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 21px;
+    width: 500px;
+    text-indent: 50px;
+    text-align: justify;
+}
+
+span {
+    color: rgb(2, 129, 233);
+    font-weight: bold;
+}

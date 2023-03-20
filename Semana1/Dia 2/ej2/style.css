@@ -1,0 +1,20 @@
+span{
+    color: yellow;
+    font-weight: bold;
+}
+
+h4 {
+    color: darkred
+}
+
+.rojo {
+    background-color: red;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.azul {
+    background-color: blue;
+}
