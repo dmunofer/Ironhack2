@@ -1,0 +1,117 @@
+.links{
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(231, 224, 224);
+}
+img{
+    width: 40%;
+}
+
+
+.lista{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(190, 121, 133);
+    padding: 10px 10px 10px 10px;
+}
+
+.padre{
+    display:flex;
+}
+
+@media(max-width:800px){
+    .fila1{
+        display:flex;
+        justify-content: flex-end;
+        align-items:flex-end;
+        flex-direction: column;
+    }
+
+    .fila2{
+        display:flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        flex-direction: column;
+    }
+
+    .fila3{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+
+    .padre{
+        flex-direction: column;
+    }
+
+    .oculto{
+        visibility: hidden;
+
+    }
+}
+@media(min-width:800px){
+
+    .cuerpo{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .links{
+        display:flex;
+        flex-direction: column;
+        width: 30%;
+        margin: 13px 13px 13px 13px;
+    }
+    .content{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .padre{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .izquierda{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .der{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .centrada{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+    }
+    .lista{
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-start;
+        flex-direction: column;
+        border: 2px solid black;
+    }
+}
+
+.image2 {
+position: relative;
+}
+.button {
+position: absolute;
+}
