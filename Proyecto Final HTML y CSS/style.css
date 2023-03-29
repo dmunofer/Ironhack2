@@ -239,7 +239,8 @@ footer nav a {
     #tablapilotos {
         margin-bottom: 30px;
         width: 100%;
-        background-color: #ef7878;
+        background-color: #ed4040;
+        color:#f2f2f2
     }
 
     #tablaequipos {
@@ -247,6 +248,7 @@ footer nav a {
         margin-bottom: 10px;
         width: 100%;
         background-color: #f34747;
+        color:#f2f2f2
     }
 
     th, td {
