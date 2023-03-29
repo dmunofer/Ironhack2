@@ -343,7 +343,7 @@ footer nav a {
 
     .section12 {
         display: list-item;
-        font-size: 28px;
+        font-size: 30px;
         grid-template-columns: 1fr 1fr;
         grid-gap:65px;
         margin-top: 30px;
@@ -479,4 +479,10 @@ input[type="submit"]:hover {
 .body123{
     background-color: #196440;
     color: #ccc;
+    width: 100%;
+    font-size: 28px;
+}
+
+.body123 img{
+    width:75%;
 }
